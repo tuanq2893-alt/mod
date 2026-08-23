@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "tuanmod",
+  "version": "1.5.0",
+  "name": "Tuấn Mod - Ore Filter",
+  "authors": ["Axiom"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.tuanmod.TuanMod"],
+    "client": ["com.tuanmod.TuanModClient"]
+  },
+  "mixins": ["tuanmod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
