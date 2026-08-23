@@ -1,14 +1,5 @@
-pluginManagement {
-    repositories {
-        maven { url 'https://maven.fabricmc.net/' }
-        mavenCentral()
-        gradlePluginPortal()
-    }
-}
-
 plugins {
-    id 'fabric-loom' version '1.4-SNAPSHOT'
-    id 'maven-publish'
+    id 'fabric-loom' version '1.5-SNAPSHOT'
 }
 
 version = '1.5.0'
@@ -23,7 +14,6 @@ dependencies {
     minecraft "com.mojang:minecraft:1.20.1"
     mappings "net.fabricmc:yarn:1.20.1+build.10:v2"
     modImplementation "net.fabricmc:fabric-loader:0.15.3"
-    modImplementation "net.fabricmc.fabric-api:fabric-api:0.87.0+1.20.1"
 }
 
 tasks.withType(JavaCompile).configureEach {
