@@ -1,17 +1,26 @@
 {
   "schemaVersion": 1,
   "id": "tuanmod",
-  "version": "1.5.0",
-  "name": "Tuấn Mod - Ore Filter",
-  "authors": ["Axiom"],
+  "version": "${version}",
+  "name": "Tuan Mod",
+  "description": "Custom Fabric Mod",
+  "authors": [
+    "tuanq2893-alt"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/tuanmod/icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": ["com.tuanmod.TuanMod"],
-    "client": ["com.tuanmod.TuanModClient"]
+    "main": [
+      "com.tuanmod.TuanMod"
+    ]
   },
-  "mixins": ["tuanmod.mixins.json"],
+  "mixins": [
+    "tuanmod.mixins.json"
+  ],
   "depends": {
-    "fabricloader": ">=0.15.0",
+    "fabricloader": ">=0.14.22",
     "minecraft": "~1.20.1",
     "java": ">=17"
   }
