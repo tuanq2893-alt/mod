@@ -11,8 +11,7 @@ public class TestScreen extends Screen {
 
     @Override
     public void render(DrawContext context, int mouseX, int mouseY, float delta) {
-        this.renderBackground(context);
         super.render(context, mouseX, mouseY, delta);
-        context.drawCenteredTextWithShadow(this.textRenderer, "GIAO DIỆN MOD ĐÃ MỞ!", this.width / 2, this.height / 2, 0xFFFFFF);
+        context.drawCenteredTextWithShadow(this.textRenderer, "GIAO DIỆN MOD ĐÃ MỜ!", this.width / 2, this.height / 2, 0xFFFFFF);
     }
 }
