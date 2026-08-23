@@ -13,15 +13,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.tuanmod.TuanMod",
-      "entrypoints": {
-    "main": [
       "com.tuanmod.TuanMod"
     ],
     "client": [
       "com.tuanmod.client.TuanModClient"
-    ]
-  },
     ]
   },
   "mixins": [
