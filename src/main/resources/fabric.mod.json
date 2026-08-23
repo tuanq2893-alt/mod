@@ -9,7 +9,6 @@
   ],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/tuanmod/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
