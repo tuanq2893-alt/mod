@@ -12,6 +12,7 @@ base {
 
 repositories {
     mavenCentral()
+    maven { url "https://maven.fabricmc.net/" }
 }
 
 dependencies {
@@ -19,7 +20,7 @@ dependencies {
     mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-    // Đã thêm thư viện Fabric API chuẩn cho 1.20.1
+    // Tích hợp sẵn Fabric API chuẩn 1.20.1
     modImplementation "net.fabricmc.fabric-api:fabric-api:0.87.0+1.20.1"
 }
 
